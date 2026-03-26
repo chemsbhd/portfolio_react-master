@@ -6,7 +6,7 @@ const Accueil = () => {
           <div className="header__left_div">
             <h1><span>BENHADDOU</span> <span>Chemsedine</span></h1>
             <p>
-              Titulaire d'un BUT Informatique spécialisé dans le développement d'applications web, <br />
+              Titulaire d'un BUT Informatique spécialisé dans le développement d'applications, <br />
               je suis toujours à la recherche de nouvelles opportunités pour améliorer mes compétences.
             </p>
           </div>
