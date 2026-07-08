@@ -1,12 +1,12 @@
 export const formations = [
-  /*{
+  {
     id: 1,
     titre: 'Cycle ingénieur',
     ecole: 'ESIEA',
     lieu: 'Paris',
     date: '2026 - 2029',
-    status: 'à venir', // ou "validé"
-  },*/
+    status: 'en cours', // ou "validé"
+  },
   {
     id: 2,
     titre: 'BUT Informatique',

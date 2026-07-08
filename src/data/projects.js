@@ -63,7 +63,7 @@ export const projects = [
     title: 'Speech2Text',
     image: WhisperAI,
     github: 'https://github.com/chemsbhd/Speech2Text',
-    note: "Speech2Text est une application de transcription de conversations en franÃ§ais avec sÃ©paration des locuteurs. Elle permet d'importer un fichier audio, de choisir le nombre de speakers ou de laisser la dÃ©tection automatique, puis de rÃ©cupÃ©rer une transcription structurÃ©e au format texte ou JSON.",
+    note: "Speech2Text est une application de transcription de conversations en français avec séparation des locuteurs. Elle permet d'importer un fichier audio, de choisir le nombre de speakers ou de laisser la détection automatique, puis de récupérer une transcription structurée au format texte ou JSON.",
     stack: [Python, PyTorch, CSS, JS],
   },
 ];
