@@ -10,6 +10,7 @@ import P10 from '../assets/images/project10.png';
 import P11 from '../assets/images/project11.png';
 import P12 from '../assets/images/project12.png';
 import P13 from '../assets/images/project13.png';
+import WhisperAI from '../assets/images/WhisperAI.png';
 import PHP from '../assets/images/lang1.png';
 import JS from '../assets/images/lang2.png';
 import Electron from '../assets/images/lang7.png';
@@ -22,6 +23,7 @@ import MySQL from '../assets/images/lang15.png';
 import CSS from '../assets/images/lang3.png';
 import Python from '../assets/images/lang4.png';
 import Flask from '../assets/images/lang27.png';
+import PyTorch from '../assets/images/lang21.svg';
 import MongoDB from '../assets/images/lang16.png';
 import Laravel from '../assets/images/lang24.png';
 export const projects = [
@@ -55,5 +57,13 @@ export const projects = [
     github: 'https://github.com/chemsbhd/TetrisPHP',
     note: 'Ce projet est une implémentation complète du jeu classique Tetris, réalisée entièrement en PHP côté serveur, sans aucune utilisation de JavaScript. L\'objectif principal est de démontrer la faisabilité d\'un jeu interactif en web uniquement avec PHP, et d\'explorer les contraintes que cela implique ainsi que les solutions apportées pour les contourner.',
     stack: [CSS, JS],
+  },
+  {
+    id: 5,
+    title: 'Speech2Text',
+    image: WhisperAI,
+    github: 'https://github.com/chemsbhd/Speech2Text',
+    note: "Speech2Text est une application de transcription de conversations en franÃ§ais avec sÃ©paration des locuteurs. Elle permet d'importer un fichier audio, de choisir le nombre de speakers ou de laisser la dÃ©tection automatique, puis de rÃ©cupÃ©rer une transcription structurÃ©e au format texte ou JSON.",
+    stack: [Python, PyTorch, CSS, JS],
   },
 ];
